@@ -1,0 +1,102 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	background: url(NewYorkCity.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+
+}
+.image{
+	background-image:url("NewYorkCity.jpg");
+}
+.boxforinformation{
+	color: #ffce00;
+	font-family: 'Oswald', sans-serif;
+  	background: inherit;
+  	font-size: 100px;
+
+}
+.scroll-up p {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateY(100%);
+ -webkit-transform:translateY(100%);	
+ transform:translateY(100%);	
+
+}
+
+@-moz-keyframes scroll-up {
+ 0%   { -moz-transform: translateY(100%); }
+ 100% { -moz-transform: translateY(-100%); }
+}
+@-webkit-keyframes scroll-up {
+ 0%   { -webkit-transform: translateY(100%); }
+ 100% { -webkit-transform: translateY(-100%); }
+}
+@keyframes scroll-up {
+ 0%   { 
+ -moz-transform: translateY(100%); /* Browser bug fix */
+ -webkit-transform: translateY(100%); /* Browser bug fix */
+ transform: translateY(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateY(-100%); /* Browser bug fix */
+ -webkit-transform: translateY(-100%); /* Browser bug fix */
+ transform: translateY(-100%); 
+ }
+}
+
+
+ul{
+	margin: 0;
+	padding: 0;
+	right: 40px;
+
+}
+.box li{
+	display: inline-block;
+	margin: 60px;
+	list-style: 
+	right: 40px;
+	
+}
+.box li a{
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  right: 40px;
+}
+
+.container{
+	width: 60rem;
+	height: 20rem;
+	<box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 2);
+	position: relative;
+	background: inherit;
+	z-index: 1;
+	
+}
+
+
+.container:before{
+	content: "";
+	position: absolute;
+	background: inherit;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+	z-index: -1;
+	filter: blur(10px);
+}
