@@ -88,7 +88,7 @@ tile_About_me{
  	top: 16vh;
  	left: 18vh;
  	font-size: 15vh;
-    font-family: 'Oswald', sans-serif;
+	font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
@@ -99,8 +99,6 @@ tile_About_me{
 .Projects:hover {
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
-
-
 .Contact_info{
     position: relative;
  	color: #ffce00;
@@ -122,18 +120,25 @@ tile_About_me{
 .aboutme_goodtext{
 	position: relative;
 	width: 100vh;
-	top: -230vh;
+	top: 20vh;
 	left: 100vh;
 	padding: 5px;
 	margin: 10px;
-	border: 14px double #ffce00;
 	font-family: 'Montserrat', sans-serif;
-	
+	background:		#DCDCDC;
+	border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+	color: black;
+	box-shadow: 20px 20px rgba(0,0,0,.25);
+	transition: all .4s ease;
 
 }
+.aboutme_goodtext:hover {
+	border-radius: 25px 25px 25px 25px / 35px 35px 35px 35px ;
+	box-shadow: 10px 10px rgba(0, 0, 0, 0.493);
+  }
 
 .bg-change1{
-	background: url(whitebg.jpg) no-repeat;
+	background: url(seattle.jpg) no-repeat;
 	background-size: cover;
     background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -141,7 +146,7 @@ tile_About_me{
 	
 }
 .bg-change2{
-	background: url(hongkong2.jpg) no-repeat;
+	background: url(seattle.jpg) no-repeat;
 	background-size: cover;
     background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -157,7 +162,7 @@ tile_About_me{
 	
 }
 .bg-change4{
-	background: url(seattle.jpg) no-repeat;
+	background: url(hongkong2.jpg) no-repeat;
 	background-size: cover;
     background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -165,7 +170,7 @@ tile_About_me{
 	
 }
 .bg-change5{
-	background: url(seattle.jpg) no-repeat;
+	background: url(hongkong2.jpg) no-repeat;
 	background-size: cover;
     background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -174,42 +179,54 @@ tile_About_me{
 }
 body{
 	background: url(NewYorkCity.jpg) no-repeat;
+	background-color: rgba(0, 0, 0);
+	overflow-x:hidden;
 	background-size: cover;
     background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center;
 	min-height:120vh;
-	transition: all 2s ease;
+	transition: all 1s ease;
 }
 .profilepicture{
 	position: relative;
-	border-radius: 50%;
+
 	width: 350px;
 	height: 350px;
 	background-image: url("me.jpg");
 	background-size: cover;
-	top: -287vh;
+	top: -40vh;
 	left: 15vh;
+	box-shadow: 20px 20px rgba(0,0,0,.25);
 }
 .jobdesc{
 	position: relative;
 	width: 100vh;
-	top: -255vh;
+	top: 7vh;
 	left: 100vh;
 	padding: 5px;
 	margin: 10px;
-	border: 14px double #ffce00;
 	font-family: 'Montserrat', sans-serif;
-	
+	background:#DCDCDC;
+	color: black;
+	box-shadow: 20px 20px rgba(0,0,0,.25);
+	transition: all .4s ease;
+
 }
+.jobdesc:hover {
+	
+	box-shadow: 10px 10px rgba(0, 0, 0, 0.493);
+  }
 .hcpic{
 	position: relative;
-	top: -295vh;
+	top: -30vh;
 	left: 20vh;
+
+	
 }
 .Skillsandtechtext{
 	position: relative;
-	top: -360vh;
+	top: -100vh;
 	font-size: 20vh;
 	color: #ffce00;
 	font-family: 'Oswald', sans-serif;
@@ -217,7 +234,7 @@ body{
 }
 .Skillsandtechtext2{
 	position: relative;
-	top: -316vh;
+	top: -40vh;
 	font-size: 20vh;
 	color: #ffce00;
 	font-family: 'Oswald', sans-serif;
@@ -225,85 +242,100 @@ body{
 }
 .techs{
 	position: relative;
-	top:-300vh;
+	top: -30vh;
 	color: #ffce00;
 	font-size: 8vh;
 }
 .move{
 	position: relative;
-	top: -258vh;
+	top: -30vh;
 }
 .project_text{
+	background:#ffce00;
+	padding: 5px;
+	margin: 10px;
 	position:relative;
-	color:gray;
+	color:black;
 	font-size: 4vh;
-	top: -608vh;
+	top: -148vh;
 	width: 70%;
 	left: 60vh;
-	border: 14px solid #ffce00;
+	box-shadow: 20px 20px rgba(0,0,0,.25);
+	transition: all .4s ease;
+	border-radius: 25px;
 }
 .Prescrypto_Pic{
 	position: relative;
 	border-radius: 55%;
-	border: 14px solid #ffce00;
+	box-shadow: 20px 20px rgba(0,0,0,.25);
+	transition: all .4s ease;
+	border-radius: 25px;
 	width: 220px;
 	height: 220px;
 	background-image: url("Prescrypto_Pic.jpg");
 	background-position: center;
 	background-size: cover;
-	top: -743vh;
+	top: -284vh;
 	left: 10vh;
 }
 
 .blockchain_pic{
 	position: relative;
 	border-radius: 55%;
-	border: 14px solid #ffce00;
+	box-shadow: 20px 20px rgba(0,0,0,.25);
+	transition: all .4s ease;
+	border-radius: 25px;
 	width: 220px;
 	height: 220px;
 	background-image: url("blockchain.jpg");
 	background-position: center;
 	background-size: cover;
-	top: -736vh;
+	top: -278vh;
 	left: 10vh;
 }
 .homebook_pic{
 	position: relative;
 	border-radius: 55%;
-	border: 14px solid #ffce00;
+	box-shadow: 20px 20px rgba(0,0,0,.25);
+	transition: all .4s ease;
+	border-radius: 25px;
 	width: 220px;
 	height: 220px;
 	background-image: url("homebook.jpg");
 	background-position: center;
 	background-size: cover;
-	top: -726vh;
+	top: -266vh;
 	left: 10vh;
+}
+.movecontactinfo{
+	position: relative;
+	top: 110vh;
 }
 .moveresume{
 	position: relative;
-	top: -590vh;
-	left: 15vh;
+	top: -130vh;
+	left: 10vh;
 	width: 50%;
-	height: 100%;
+	height: 100vh;
 	overflow: hidden;	
 }
 
 .gitmove{
 	position: relative;
-	top: -624vh;
+	top: -230vh;
 	width: 25%;
 	left: 150vh;
 }
 .linkedmove{
 	position: relative;
-	top: -656vh;
+	top: -270vh;
 	left: 110vh;
 	width: 40vh;
 }
 .emailmove{
 	font-family: 'Oswald', sans-serif;
 	position: relative;
-	top: -584vh;
+	top: -195vh;
 	left: 20vh;
 	color: #ffce00;
 	font-size: 9vh;
@@ -314,6 +346,11 @@ body{
 	position: relative;
 	font-size:9vh;
 	color: gray;
-	top: -595vh;
-	left: 30vh;
+	top: -137vh;
+	left: 20vh;
 }
+.underlinetitle { text-decoration: underline;
+	text-decoration-color: #ffce00; }
+
+	.underline { text-decoration: underline;
+		text-decoration-color: #DCDCDC; }
