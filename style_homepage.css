@@ -250,13 +250,18 @@ body{
 }
 .techs{
 	position: absolute;
-	left:140vh;
-	top: 420vh;
+	left:0vh;
+	top: 400vh;
+	font-family: 'Montserrat', sans-serif;
 	color: #ffce00;
 	font-size: 8vh;
 }
+.techstyle{
+	padding: 1vh;
+	border:double #ffce00;
+}
 ul#listoftech li {
-	display: inline;
+	display: inline-block
 }
 .moveproject{
 	position: absolute;
