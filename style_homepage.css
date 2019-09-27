@@ -12,9 +12,9 @@
 
 .Hi_Im{
 
-	position: relative;
-	top: 20vh;
-	left: 12vh;
+	position: absolute;
+	top: 16vh;
+	left: 10vh;
 	color: white;
 	font-size: 60px;	
 	font-family: 'Cardo', serif;
@@ -24,10 +24,16 @@
 
 }
 .Eric{
+	color: #ffce00;
+	font-size: 30vh;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+.Eric2{
 
-	position: relative;
+	position: absolute;
 	left: 10vh;
-	top: 10vh;
+	top: 14vh;
 	color: #ffce00;
 	font-size: 40vh;
 	font-family: 'Oswald', sans-serif;
@@ -35,9 +41,9 @@
 }
 .titlepage-bio{
 
-	position: relative;
-	top: 5vh;
-	left: 12vh;
+	position: absolute;
+	top: 60vh;
+	left: 5vh;
 	color: white;
 	width: 30%;
 	font-family: 'Permanent Marker', cursive;
@@ -47,7 +53,7 @@
 
 .About_me{
     background: inherit;
- 	position: relative;
+ 	position: absolute;
  	color: #ffce00;
  	top: 12vh;
  	left: 18vh;
@@ -82,25 +88,8 @@ tile_About_me{
     z-index: -1;
     box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
 }
-.Projects{
-    position: relative;
- 	color: #ffce00;
- 	top: 16vh;
- 	left: 18vh;
- 	font-size: 15vh;
-	font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-    display: inline-block;
-    background: inherit;
-    z-index: 1;
-}   
-.Projects:hover {
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-}
 .Contact_info{
-    position: relative;
+    position: absolute;
  	color: #ffce00;
  	top: 20vh;
  	left: 18vh;
@@ -116,20 +105,23 @@ tile_About_me{
 .Contact_info:hover{
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
-
-.aboutme_goodtext{
-	position: relative;
-	width: 100vh;
-	top: 20vh;
+.aboutmemove{
+	position:absolute;
 	left: 100vh;
+	top: 92vh;
+}
+.aboutme_goodtext{
+	position: absolute;
+	width: 60vh;
+	top: 103vh;
+	color:white;
+	left: 0vh;
 	padding: 5px;
 	margin: 10px;
+	font-size: 3.5vh;
 	font-family: 'Montserrat', sans-serif;
-	background:		#DCDCDC;
 	border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
-	color: black;
-	box-shadow: 20px 20px rgba(0,0,0,.25);
-	transition: all .4s ease;
+	border-left: 2px solid black;
 
 }
 .aboutme_goodtext:hover {
@@ -138,7 +130,7 @@ tile_About_me{
   }
 
 .bg-change1{
-	background: url(seattle.jpg) no-repeat;
+	background: url(NewYorkCity.jpg) no-repeat;
 	background-size: cover;
     background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -146,7 +138,7 @@ tile_About_me{
 	
 }
 .bg-change2{
-	background: url(seattle.jpg) no-repeat;
+	background: url(black.jpg) no-repeat;
 	background-size: cover;
     background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -154,7 +146,7 @@ tile_About_me{
 	
 }
 .bg-change3{
-	background: url(toronto.jpg) no-repeat;
+	background: url(seattle.jpg) no-repeat;
 	background-size: cover;
     background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -162,7 +154,7 @@ tile_About_me{
 	
 }
 .bg-change4{
-	background: url(hongkong2.jpg) no-repeat;
+	background: url(black.jpg) no-repeat;
 	background-size: cover;
     background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -170,6 +162,23 @@ tile_About_me{
 	
 }
 .bg-change5{
+	background: url(toronto.jpg) no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+
+.bg-change6{
+	background: url(black.jpg) no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+.bg-change7{
 	background: url(hongkong2.jpg) no-repeat;
 	background-size: cover;
     background-attachment: fixed;
@@ -178,8 +187,7 @@ tile_About_me{
 	
 }
 body{
-	background: url(NewYorkCity.jpg) no-repeat;
-	background-color: rgba(0, 0, 0);
+	background: url(black.jpg) no-repeat;
 	overflow-x:hidden;
 	background-size: cover;
     background-attachment: fixed;
@@ -189,26 +197,25 @@ body{
 	transition: all 1s ease;
 }
 .profilepicture{
-	position: relative;
-
+	position: absolute;
 	width: 350px;
 	height: 350px;
 	background-image: url("me.jpg");
 	background-size: cover;
-	top: -35vh;
-	left: 15vh;
+	top: 135vh;
+	left: 125vh;
 	box-shadow: 20px 20px rgba(0,0,0,.25);
 }
 .jobdesc{
 	position: relative;
-	width: 100vh;
-	top: 7vh;
-	left: 100vh;
+	width: 60vh;
+	top: 260vh;
+	left: 135vh;
 	padding: 5px;
 	margin: 10px;
+	font-size: 3.5vh;
+	color: white;
 	font-family: 'Montserrat', sans-serif;
-	background:#DCDCDC;
-	color: black;
 	box-shadow: 20px 20px rgba(0,0,0,.25);
 	transition: all .4s ease;
 
@@ -218,132 +225,170 @@ body{
 	box-shadow: 10px 10px rgba(0, 0, 0, 0.493);
   }
 .hcpic{
-	position: relative;
-	top: -30vh;
+	position: absolute;
+	top: 300vh;
 	left: 20vh;
 
 	
 }
 .Skillsandtechtext{
-	position: relative;
-	top: -100vh;
+	position: absolute;
+	top: 260vh;
+	left:1vh;
 	font-size: 20vh;
 	color: #ffce00;
 	font-family: 'Oswald', sans-serif;
 
 }
 .Skillsandtechtext2{
-	position: relative;
-	top: -40vh;
+	position: absolute;
+	top: 380vh;
 	font-size: 20vh;
 	color: #ffce00;
 	font-family: 'Oswald', sans-serif;
 
 }
 .techs{
-	position: relative;
-	top: -30vh;
+	position: absolute;
+	left:140vh;
+	top: 420vh;
 	color: #ffce00;
 	font-size: 8vh;
 }
-.move{
-	position: relative;
-	top: -30vh;
+ul#listoftech li {
+	display: inline;
 }
-.project_text{
-	background:#ffce00;
+.moveproject{
+	position: absolute;
+	top: 500vh;
+	left: 10vh;
+}
+.project_text1{
+	
 	padding: 5px;
 	margin: 10px;
-	position:relative;
-	color:black;
+	position:absolute;
+	color:white;
+	font-size: 3.5vh;
+	top: 550vh;
+	width: 35%;
+	left: 130vh;
+	font-family: 'Montserrat', sans-serif;
+	box-shadow: 20px 20px rgba(0,0,0,.25);
+	transition: all .4s ease;
+	border-radius: 25px;
+}
+.project_text2{
+	
+	padding: 5px;
+	margin: 10px;
+	position:absolute;
+	color:white;
 	font-size: 4vh;
-	top: -143vh;
-	width: 70%;
-	left: 60vh;
+	top: 625vh;
+	width: 35%;
+	left: 130vh;
+	font-family: 'Montserrat', sans-serif;
+	box-shadow: 20px 20px rgba(0,0,0,.25);
+	transition: all .4s ease;
+	border-radius: 25px;
+}
+.project_text3{
+	
+	padding: 5px;
+	margin: 10px;
+	position:absolute;
+	color:white;
+	font-size: 4vh;
+	top: 700vh;
+	width: 35%;
+	left: 130vh;
+	font-family: 'Montserrat', sans-serif;
 	box-shadow: 20px 20px rgba(0,0,0,.25);
 	transition: all .4s ease;
 	border-radius: 25px;
 }
 .Prescrypto_Pic{
-	position: relative;
+	position: absolute;
 	border-radius: 55%;
 	box-shadow: 20px 20px rgba(0,0,0,.25);
 	transition: all .4s ease;
 	border-radius: 25px;
 	width: 220px;
 	height: 220px;
-	background-image: url("Prescrypto_Pic.jpg");
+	background-image: url("home.jpg");
 	background-position: center;
 	background-size: cover;
-	top: -260vh;
+	top: 500vh;
 	left: 10vh;
 }
 
 .blockchain_pic{
-	position: relative;
+	position: absolute;
 	border-radius: 55%;
 	box-shadow: 20px 20px rgba(0,0,0,.25);
 	transition: all .4s ease;
 	border-radius: 25px;
 	width: 220px;
 	height: 220px;
-	background-image: url("blockchain.jpg");
+	background-image: url("Prescryptologin.jpg");
 	background-position: center;
 	background-size: cover;
 	top: -255vh;
 	left: 10vh;
 }
 .homebook_pic{
-	position: relative;
+	position: absolute;
 	border-radius: 55%;
 	box-shadow: 20px 20px rgba(0,0,0,.25);
 	transition: all .4s ease;
 	border-radius: 25px;
 	width: 220px;
 	height: 220px;
-	background-image: url("homebook.jpg");
+	background-image: url("Login.jpg");
 	background-position: center;
 	background-size: cover;
 	top: -250vh;
 	left: 10vh;
 }
 .movecontactinfo{
-	position: relative;
-	top: 110vh;
+	position: absolute;
+	top: 860vh;
+	font-size: 19vh;
 }
 .moveresume{
-	position: relative;
-	top: -110vh;
-	left: 10vh;
+	position:absolute;
+	top: 920vh;
+	left: 120vh;
 	width: 50%;
-	height: 100vh;
+	height: 75%;
 	overflow: hidden;	
 }
 
 .gitmove{
-	position: relative;
-	top: -245vh;
+	position: absolute;
+	top: 854vh;
 	width: 25%;
-	left: 150vh;
+	left: 160vh;
 }
 .linkedmove{
-	position: relative;
-	top: -292vh;
+	position: absolute;
+	top:  862vh;
 	left: 110vh;
 	width: 40vh;
 }
 .emailmove{
 	font-family: 'Oswald', sans-serif;
-	position: relative;
-	top: -177vh;
-	left: 10vh;
+	position: absolute;
+	top: 920vh;
+	left: 1vh;
 	color: #ffce00;
 	font-size: 9vh;
 
 }
 .resumetitle{
 	font-family: 'Oswald', sans-serif;
-	position: relative;
+	position: absolute;
 	font-size:9vh;
 	color: gray;
 	top: -115vh;
