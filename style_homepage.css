@@ -46,7 +46,7 @@
 	left: 5vh;
 	color: white;
 	width: 30%;
-	font-family: 'Permanent Marker', cursive;
+	font-family: 'Montserrat', sans-serif;
 	margin: 40px;
 
 }
@@ -257,7 +257,8 @@ body{
 	font-size: 8vh;
 }
 .techstyle{
-	padding: 1vh;
+	padding: 2vh;
+	margin: 2vh;
 	border:double #ffce00;
 }
 ul#listoftech li {
