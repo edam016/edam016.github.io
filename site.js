@@ -39,6 +39,10 @@ function bgChanger() {
     }
 }
 
+function smoothScroll(target, duration) {
+    var target = document.querySelector(target);
+    var targetPosition = target.getBoundingClientRect();
 
+}
 window.addEventListener("scroll", bgChanger);
 window.addEventListener('scroll', scrollAppear);

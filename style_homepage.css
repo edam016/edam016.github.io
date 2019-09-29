@@ -463,7 +463,3 @@ ul#listoftech li {
 	opacity: 1;
 	transform: translateY(0vh);
 }
-
-div.hidden {
-    display: none
-}
