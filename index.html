@@ -4,6 +4,7 @@
 <head>
 	<!-- rename this page to index.html -->
 	<link rel="stylesheet" href="style_homepage.css">
+	<link rel="stylesheet" href="border.css">
 	<link rel="stylesheet" href="bulma\css\bulma.css">
 	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
@@ -17,13 +18,9 @@
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
 	<script src="site.js"></script>
 	<style type="text/css">
-		@media screen and (min-width:1px) and (max-width:1365px) {
-			...
-		}
+		@media screen and (min-width:1px) and (max-width:1365px) {}
 
-		@media screen and (min-width:1366px) {
-			...
-		}
+		@media screen and (min-width:1366px) {}
 	</style>
 
 </head>
@@ -33,15 +30,43 @@
 	<div>
 		<div id="tiles">
 
-			<div class="column ">
+			<div class="column">
 				<div class="columns Hi_Im">
 					Hi, I'm
 				</div>
-				<div class="columns Eric2"> Eric.
+				<div class="columns Eric2 hidden">
+					Eric.
 				</div>
 				<div class="columns titlepage-bio">
 					Currently looking for a Software Internship role for the Winter 2020 term
 				</div>
+			</div>
+			<div class="svg-wrapper svg-wrapper_transform1">
+				<svg height="60" width="500" xmlns="http://www.w3.org/2000/svg">
+					<rect class="shape1" height="60" width="500" />
+					<rect class="shape2" height="60" width="500" />
+					<div class="text Eric">
+						<a>About me</a>
+					</div>
+				</svg>
+			</div>
+			<div class="svg-wrapper svg-wrapper_transform2">
+				<svg height="60" width="500" xmlns="http://www.w3.org/2000/svg">
+					<rect class="shape1" height="60" width="500" />
+					<rect class="shape2" height="60" width="500" />
+					<div class="text Eric">
+						<a>Projects</a>
+					</div>
+				</svg>
+			</div>
+			<div class="svg-wrapper svg-wrapper_transform3">
+				<svg height="60" width="500" xmlns="http://www.w3.org/2000/svg">
+					<rect class="shape1" height="60" width="500" />
+					<rect class="shape2" height="60" width="500" />
+					<div class="text Eric">
+						<a>Contact Information</a>
+					</div>
+				</svg>
 			</div>
 			<br />
 			<br />
@@ -51,7 +76,7 @@
 					About me
 				</div>
 
-				<div class="aboutme_goodtext">
+				<div class="aboutme_goodtext intro-text">
 					<span>
 						<b>Summary</b>
 					</span>

@@ -38,5 +38,18 @@ function bgChanger() {
 
     }
 }
+function scrollAppear() {
+    var introText = document.querySelector('.intro-text');
+    var introPosition = introText.getBoundingClientRect().top;
+    var screenPosition = window.innerHeight / 1.3;
+
+    if (introPosition < screenPosition) {
+        introText.classList.add("intro-appear");
+    }
+}
+$(document).ready(function () {
+    $('div.hidden').fadeIn(1000);
+});
 
 window.addEventListener("scroll", bgChanger);
+window.addEventListener('scroll', scrollAppear);

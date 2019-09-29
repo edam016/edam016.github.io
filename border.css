@@ -1,0 +1,51 @@
+
+::selection {
+  background: #19f6e8;
+}
+.svg-wrapper {
+  position: relative;
+  top: 50%;
+  margin: 0 auto;   
+  width: 500px;
+  text-align: center;
+}
+.svg-wrapper_transform1{
+    transform: translateX(50%) translateY(30%);
+}
+.svg-wrapper_transform2{
+    transform: translateX(50%) translateY(30%);
+}
+.svg-wrapper_transform3{
+    transform: translateX(50%) translateY(30%);
+}
+.shape1,
+.shape2 {
+  stroke-dasharray: 1620;
+  stroke-width: 5px;
+  fill: transparent;
+  stroke: #ffce00;
+  border-bottom: 5px solid black;
+  transition-timing-function: linear;
+  transition: stroke-dashoffset 5s, stroke-dasharray .5s;
+}
+.shape1 {
+  stroke-dashoffset: 1120;
+}
+.shape2 {
+  stroke-dashoffset: -1120;
+}
+.text {
+    font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 8px;
+  color: #fff;
+  top: -48px;
+  position: relative;
+  border-style: dotted;
+}
+.svg-wrapper:hover .shape1,
+.svg-wrapper:hover .shape2 {
+  stroke-dashoffset: 0;
+  stroke-dasharray: 1120;
+}
