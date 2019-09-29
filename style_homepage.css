@@ -214,7 +214,7 @@ body{
 .jobdesc{
 	position: relative;
 	width: 60vh;
-	top: 260vh;
+	top: 230vh;
 	left: 135vh;
 	padding: 5px;
 	margin: 10px;
@@ -460,3 +460,9 @@ ul#listoftech li {
 	opacity: 1;
 	transform: translateY(0vh);
 }
+#page-wrap { 
+	max-width: 500px; 
+	margin: 1rem auto;
+	padding: 1rem;
+  }
+  

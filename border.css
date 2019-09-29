@@ -42,7 +42,6 @@
   color: #fff;
   top: -48px;
   position: relative;
-  border-style: dotted;
 }
 .svg-wrapper:hover .shape1,
 .svg-wrapper:hover .shape2 {

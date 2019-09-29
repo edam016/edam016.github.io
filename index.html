@@ -17,6 +17,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Archivo:500|Open+Sans:300,700" rel="stylesheet">
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
 	<script src="site.js"></script>
+	<script src="smoothscroll.js"></script>
 	<style type="text/css">
 		@media screen and (min-width:1px) and (max-width:1365px) {}
 
@@ -46,7 +47,7 @@
 					<rect class="shape1" height="60" width="500" />
 					<rect class="shape2" height="60" width="500" />
 					<div class="text Eric">
-						<a class="section1" href="#" style="color:white">About me</a>
+						<a href="#section1" style="color:white">About me</a>
 					</div>
 				</svg>
 			</div>
@@ -55,7 +56,7 @@
 					<rect class="shape1" height="60" width="500" />
 					<rect class="shape2" height="60" width="500" />
 					<div class="text Eric">
-						<a class="section2" href="#" style="color:white">Projects</a>
+						<a href="#section2" style="color:white">Projects</a>
 					</div>
 				</svg>
 			</div>
@@ -64,7 +65,7 @@
 					<rect class="shape1" height="60" width="500" />
 					<rect class="shape2" height="60" width="500" />
 					<div class="text Eric">
-						<a class="section3" href="#" style="color:white">Contact Information</a>
+						<a href="#section3" style="color:white">Contact Information</a>
 					</div>
 				</svg>
 			</div>
@@ -76,9 +77,9 @@
 					About me
 				</div>
 
-				<div class="aboutme_goodtext ">
+				<div id="section1" class="aboutme_goodtext ">
 					<span>
-						<a class="hi"></a>
+
 						<b>Summary</b>
 					</span>
 					<br /> I am currently a third year Computer Engineering student with a knack for solving problems (small and large) and experience
@@ -189,19 +190,19 @@
 				</div>
 			</section>
 			<section>
-				<div id=projects class="Eric moveproject underlinetitle">
+				<div id="section2" class="Eric moveproject underlinetitle">
 					pROJECTS
 				</div>
 
 			</section>
 
 			<section>
-				<div class="Eric underlinetitle movecontactinfo">
+				<div class="Eric underlinetitle movecontactinfo" id="section3">
 					Contact
 					<br />Information
 				</div>
 
-				<div id=projects class="projectdesc">
+				<div class="projectdesc">
 					<div class="project_text1">
 						<span>
 							<b>Prescrypto</b>
