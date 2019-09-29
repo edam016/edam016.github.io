@@ -110,7 +110,7 @@ tile_About_me{
 }
 .aboutmemove{
 	position:absolute;
-	left: 100vh;
+	left: 90vh;
 	top: 92vh;
 }
 .aboutme_goodtext{
@@ -118,7 +118,7 @@ tile_About_me{
 	width: 60vh;
 	top: 103vh;
 	color:white;
-	left: 0vh;
+	left: 5vh;
 	padding: 5px;
 	margin: 10px;
 	font-size: 3.5vh;
@@ -208,7 +208,7 @@ body{
 	background-image: url("me.jpg");
 	background-size: cover;
 	top: 135vh;
-	left: 125vh;
+	left: 115vh;
 	box-shadow: 20px 20px rgba(0,0,0,.25);
 }
 .jobdesc{
@@ -228,8 +228,8 @@ body{
 
 .hcpic{
 	position: absolute;
-	top: 300vh;
-	left: 20vh;
+	top: 295vh;
+	left: 7vh;
 
 	
 }
@@ -460,3 +460,35 @@ ul#listoftech li {
 	opacity: 1;
 	transform: translateY(0vh);
 }
+
+.options {
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	display: flex;
+	width: 100%;
+	height: 60px;
+	background: rgba(0,0,0,0.7);
+  }
+  
+  .options ul {
+	display: flex;
+	list-style: none;
+	width: 100%;
+	justify-content: center;
+  }
+  
+  .options ul li {
+	margin: 0 1rem;
+	padding: 1rem;
+  }
+  
+  .options ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #f4f4f4;
+  }
+  
+  .options ul li a:hover {
+	color: skyblue;
+  }
