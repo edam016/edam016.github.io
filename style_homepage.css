@@ -323,7 +323,7 @@ ul#listoftech li {
 	transition: all .4s ease;
 	width: 43vh;
 	height: 43vh;
-	background-image: url("home.jpg");
+	background-image: url("home.JPG");
 	background-position: center;
 	background-size: cover;
 	top: 570vh;
@@ -336,7 +336,7 @@ ul#listoftech li {
 	transition: all .4s ease;
 	width: 84vh;
     height:19vh;
-	background-image: url("Prescryptologin.jpg");
+	background-image: url("Prescryptologin.JPG");
 	background-position: top;
 	background-size: fill;
 	top: 545vh;
