@@ -111,12 +111,12 @@ tile_About_me{
 .aboutmemove{
 	position:absolute;
 	left: 90vh;
-	top: 92vh;
+	top: 110vh;
 }
 .aboutme_goodtext{
 	position: absolute;
 	width: 60vh;
-	top: 103vh;
+	top: 121vh;
 	color:white;
 	left: 5vh;
 	padding: 5px;
@@ -198,7 +198,6 @@ body{
 	background-repeat: no-repeat;
 	background-position: center;
 	min-height:120vh;
-
 	transition: all 2.5s ease;
 }
 .profilepicture{
@@ -207,14 +206,14 @@ body{
 	height: 350px;
 	background-image: url("me.jpg");
 	background-size: cover;
-	top: 135vh;
+	top: 153vh;
 	left: 115vh;
 	box-shadow: 20px 20px rgba(0,0,0,.25);
 }
 .jobdesc{
-	position: relative;
+	position: absolute;
 	width: 60vh;
-	top: 220vh;
+	top: 285vh;
 	left: 135vh;
 	padding: 5px;
 	margin: 10px;
@@ -318,12 +317,11 @@ ul#listoftech li {
 }
 .Prescrypto_Pic{
 	position: absolute;
-
 	box-shadow: 20px 20px rgba(0,0,0,.25);
 	transition: all .4s ease;
 	width: 43vh;
 	height: 43vh;
-	background-image: url("home.jpg");
+	background-image: url("home.JPG");
 	background-position: center;
 	background-size: cover;
 	top: 570vh;
@@ -336,7 +334,7 @@ ul#listoftech li {
 	transition: all .4s ease;
 	width: 84vh;
     height:19vh;
-	background-image: url("Prescryptologin.jpg");
+	background-image: url("Prescryptologin.JPG");
 	background-position: top;
 	background-size: fill;
 	top: 545vh;
@@ -404,12 +402,12 @@ ul#listoftech li {
 }
 .movecontactinfo{
 	position: absolute;
-	top: 860vh;
+	top: 960vh;
 	font-size: 19vh;
 }
 .moveresume{
 	position:absolute;
-	top: 920vh;
+	top: 1000vh;
 	left: 120vh;
 	width: 50%;
 	height: 75%;
@@ -418,20 +416,20 @@ ul#listoftech li {
 
 .gitmove{
 	position: absolute;
-	top: 854vh;
+	top: 954vh;
 	width: 25%;
 	left: 160vh;
 }
 .linkedmove{
 	position: absolute;
-	top:  862vh;
+	top:  960vh;
 	left: 110vh;
 	width: 40vh;
 }
 .emailmove{
 	font-family: 'Oswald', sans-serif;
 	position: absolute;
-	top: 920vh;
+	top: 1030vh;
 	left: 1vh;
 	color: #ffce00;
 	font-size: 9vh;
@@ -460,4 +458,46 @@ ul#listoftech li {
 	opacity: 1;
 	transform: translateY(0vh);
 }
+.Awards_title{
+	position: absolute;
+	top: 800vh;
+	left: 10vh;
+}
 
+.Awards_desc_google{
+	position: absolute;
+	top: 860vh;
+	left: 10vh;
+	color: white;
+	font-size: 4vh;
+	width: 50%;
+	font-family: 'Montserrat', sans-serif;
+
+}
+.Awards_desc_htn{
+	position: absolute;
+	top: 900vh;
+	color: white;
+	font-size: 4vh;
+	width: 50%;
+	left: 10vh;
+	font-family: 'Montserrat', sans-serif;
+}
+.googlemove{
+	position: absolute;
+	top: 845vh;
+	left: 140vh;
+	width: 20%;
+	height: 20%;
+}
+.htnmove{
+	position: absolute;
+	top: 895vh;
+	left: 140vh;
+	width: 20%;
+	height: 20%;
+}
+.resize {
+    width: 40vh;
+    height: auto;
+}
