@@ -407,29 +407,38 @@ ul#listoftech li {
 }
 .moveresume{
 	position:absolute;
-	top: 1000vh;
-	left: 120vh;
-	width: 50%;
-	height: 75%;
+	top: 967vh;
+	left: 110vh;
 	overflow: hidden;	
 }
 
 .gitmove{
 	position: absolute;
-	top: 954vh;
+	top: 1004vh;
 	width: 25%;
-	left: 160vh;
+	left: 1vh;
+}
+.gitresize{
+	width:15%;
+	position: absolute;
+	top: 1024vh;
+	left: 50vh;
+	height: auto;
+}
+.resumeresize{
+	height: 125vh;
+	width: 100vh;
 }
 .linkedmove{
 	position: absolute;
-	top:  960vh;
-	left: 110vh;
+	top:  1020vh;
+	left: 1vh;
 	width: 40vh;
 }
 .emailmove{
 	font-family: 'Oswald', sans-serif;
 	position: absolute;
-	top: 1030vh;
+	top: 1065vh;
 	left: 1vh;
 	color: #ffce00;
 	font-size: 9vh;
