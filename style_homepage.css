@@ -14,7 +14,7 @@
 
 	position: absolute;
 	top: 16vh;
-	left: 10vh;
+	left: 5vw;
 	color: white;
 	font-size: 60px;	
 	font-family: 'Cardo', serif;
@@ -33,10 +33,10 @@
 .Eric2{
 
 	position: absolute;
-	left: 10vh;
+	left: 5vw;
 	top: 14vh;
 	color: #ffce00;
-	font-size: 40vh;
+	font-size: 40vh;	
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
 }
@@ -46,7 +46,7 @@
 
 	position: absolute;
 	top: 60vh;
-	left: 5vh;
+	left: 2.5vw;
 	color: white;
 	width: 30%;
 	font-family: 'Montserrat', sans-serif;
@@ -54,74 +54,20 @@
 
 }
 
-.About_me{
-    background: inherit;
- 	position: absolute;
- 	color: #ffce00;
- 	top: 12vh;
- 	left: 18vh;
-    
-    /*box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);   
-    /*transition: all 0.3s cubic-bezier(.25,.8,.25,1);*/
-    
-}
-.About_me_text{
-    font-size: 15vh;
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-     z-index: 1; 
-    
-}
-tile_About_me{
-    position: relative;
-    background: inherit;
-    top: 12vh;
- 	left: 18vh;
-    filter: blur(10px);
-    z-index: -1;
-    
-}
-.About_me:hover {
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-}
-.About_me::before {
-    content: "";
-	background: inherit;
-	position: absolute;
-    z-index: -1;
-    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
-}
-.Contact_info{
-    position: absolute;
- 	color: #ffce00;
- 	top: 20vh;
- 	left: 18vh;
- 	font-size: 15vh;
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-    display: inline-block;
-    background: inherit;
-    z-index: 1;
-}
-.Contact_info:hover{
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-}
 .aboutmemove{
 	position:absolute;
-	left: 90vh;
+	left: 42vw;
 	top: 110vh;
 }
 .aboutme_goodtext{
 	position: absolute;
-	width: 60vh;
+	width: 25vw;
 	top: 121vh;
 	color:white;
-	left: 5vh;
+	left: 2vw;
 	padding: 5px;
 	margin: 10px;
-	font-size: 3.5vh;
+	font-size: 3vh;
 	font-family: 'Montserrat', sans-serif;
 	border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
 	border-left: 2px solid black;
@@ -207,14 +153,14 @@ body{
 	background-image: url("me.jpg");
 	background-size: cover;
 	top: 153vh;
-	left: 115vh;
+	left: 55vw;
 	box-shadow: 20px 20px rgba(0,0,0,.25);
 }
 .jobdesc{
 	position: absolute;
-	width: 60vh;
+	width: 35vw;
 	top: 285vh;
-	left: 135vh;
+	left: 58vw;
 	padding: 5px;
 	margin: 10px;
 	font-size: 3.5vh;
@@ -228,14 +174,14 @@ body{
 .hcpic{
 	position: absolute;
 	top: 295vh;
-	left: 7vh;
+	left: 3vw;
 
 	
 }
 .Skillsandtechtext{
 	position: absolute;
 	top: 260vh;
-	left:1vh;
+	left:1vw;
 	font-size: 20vh;
 	color: #ffce00;
 	font-family: 'Oswald', sans-serif;
@@ -251,7 +197,7 @@ body{
 }
 .techs{
 	position: absolute;
-	left:0vh;
+	left:0vw;
 	top: 400vh;
 	font-family: 'Montserrat', sans-serif;
 	color: #ffce00;
@@ -268,7 +214,7 @@ ul#listoftech li {
 .moveproject{
 	position: absolute;
 	top: 500vh;
-	left: 10vh;
+	left: 5vw;
 }
 .project_text1{
 	
@@ -279,7 +225,7 @@ ul#listoftech li {
 	font-size: 3.5vh;
 	top: 543vh;
 	width: 35%;
-	left: 130vh;
+	left: 61vw;
 	font-family: 'Montserrat', sans-serif;
 	box-shadow: 20px 20px rgba(0,0,0,.25);
 	transition: all .4s ease;
@@ -294,7 +240,7 @@ ul#listoftech li {
 	font-size: 4vh;
 	top: 625vh;
 	width: 35%;
-	left: 130vh;
+	left: 61vw;
 	font-family: 'Montserrat', sans-serif;
 	box-shadow: 20px 20px rgba(0,0,0,.25);
 	transition: all .4s ease;
@@ -309,7 +255,7 @@ ul#listoftech li {
 	font-size: 4vh;
 	top: 700vh;
 	width: 35%;
-	left: 130vh;
+	left: 61vw;
 	font-family: 'Montserrat', sans-serif;
 	box-shadow: 20px 20px rgba(0,0,0,.25);
 	transition: all .4s ease;
@@ -319,86 +265,86 @@ ul#listoftech li {
 	position: absolute;
 	box-shadow: 20px 20px rgba(0,0,0,.25);
 	transition: all .4s ease;
-	width: 43vh;
+	width: 21vw;
 	height: 43vh;
 	background-image: url("home.JPG");
 	background-position: center;
 	background-size: cover;
 	top: 570vh;
-	left: 70vh;
+	left: 33vw;
 }
 
 .blockchain_pic{
 	position: absolute;
 	box-shadow: 20px 20px rgba(0,0,0,.25);
 	transition: all .4s ease;
-	width: 84vh;
+	width: 42vw;
     height:19vh;
 	background-image: url("Prescryptologin.JPG");
 	background-position: top;
 	background-size: fill;
 	top: 545vh;
-	left: 20vh;
+	left: 10vw;
 }
 .homebook_pic{
 	position: absolute;
 	box-shadow: 20px 20px rgba(0,0,0,.25);
 	transition: all .4s ease;
-	width: 43vh;
+	width: 21vw;
 	height: 43vh;
 	background-image: url("Login.JPG");
 	background-position: center;
 	background-size: cover;
 	top: 570vh;
-	left: 10vh;
+	left: 10vw;
 }
 .csiblockchain_pic{
 	position: absolute;
 	box-shadow: 20px 20px rgba(0,0,0,.25);
 	transition: all .4s ease;
-	width: 100vh;
+	width: 40vw;
 	height: 43vh;
 	background-image: url("csiblockchain.JPG");
 	background-position: center;
 	background-size: cover;
-	top: 632vh;
-	left: 10vh;
+	top: 633vh;
+	left: 10vw;
 }
 .hash_pic{
 	position: absolute;
 	box-shadow: 20px 20px rgba(0,0,0,.25);
 	transition: all .4s ease;
-	width: 43vh;
+	width: 20vw;
 	height: 47vh;
 	background-image: url("example.JPG");
 	background-position: center;
 	background-size: cover;
 	top: 620vh;
-	left: 80vh;
+	left: 36vw;
 }
 .homebook_pic1{
 	position: absolute;
 	box-shadow: 20px 20px rgba(0,0,0,.25);
 	transition: all .4s ease;
-	width: 50vh;
+	width: 20vw;
 	height: 90vh;
 	background-image: url("homebook_pic1.JPG");
 	background-position: center;
 	background-size: cover;
 	top: 700vh;
-	left: 10vh;
+	left: 10vw;
 }
 .homebook_pic2{
 	position: absolute;
 	box-shadow: 20px 20px rgba(0,0,0,.25);
 	transition: all .4s ease;
-	width: 50vh;
+	width: 20vw;
 	height: 90vh;
 	background-image: url("homebook_pic2.JPG");
 	background-position: center;
 	background-size: cover;
 	top: 700vh;
-	left: 70vh;
+	left: 33vw;
 }
 .movecontactinfo{
 	position: absolute;
@@ -408,7 +354,7 @@ ul#listoftech li {
 .moveresume{
 	position:absolute;
 	top: 967vh;
-	left: 110vh;
+	left: 49vw;
 	overflow: hidden;	
 }
 
@@ -422,24 +368,24 @@ ul#listoftech li {
 	width:15%;
 	position: absolute;
 	top: 1024vh;
-	left: 50vh;
+	left: 23vw;
 	height: auto;
 }
 .resumeresize{
 	height: 125vh;
-	width: 100vh;
+	width: 46vw;
 }
 .linkedmove{
 	position: absolute;
 	top:  1020vh;
 	left: 1vh;
-	width: 40vh;
+	width: 18vw;
 }
 .emailmove{
 	font-family: 'Oswald', sans-serif;
 	position: absolute;
 	top: 1065vh;
-	left: 1vh;
+	left: 1vw;
 	color: #ffce00;
 	font-size: 9vh;
 
@@ -450,7 +396,7 @@ ul#listoftech li {
 	font-size:9vh;
 	color: gray;
 	top: -115vh;
-	left: 10vh;
+	left: 10vw;
 }
 .underlinetitle { text-decoration: underline;
 	text-decoration-color: #ffce00; }
@@ -470,13 +416,13 @@ ul#listoftech li {
 .Awards_title{
 	position: absolute;
 	top: 800vh;
-	left: 10vh;
+	left: 5vw;
 }
 
 .Awards_desc_google{
 	position: absolute;
 	top: 860vh;
-	left: 10vh;
+	left: 5vw;
 	color: white;
 	font-size: 4vh;
 	width: 50%;
@@ -489,24 +435,24 @@ ul#listoftech li {
 	color: white;
 	font-size: 4vh;
 	width: 50%;
-	left: 10vh;
+	left: 5vw;
 	font-family: 'Montserrat', sans-serif;
 }
 .googlemove{
 	position: absolute;
 	top: 845vh;
-	left: 140vh;
+	left: 64vw;
 	width: 20%;
 	height: 20%;
 }
 .htnmove{
 	position: absolute;
 	top: 895vh;
-	left: 140vh;
+	left: 64vw;
 	width: 20%;
 	height: 20%;
 }
 .resize {
-    width: 40vh;
+    width: 20vw;
     height: auto;
 }
