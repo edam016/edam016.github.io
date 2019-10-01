@@ -141,7 +141,7 @@ body{
 	background-repeat: no-repeat;
 	background-position: center;
 	min-height:120vh;
-	transition: all 2.5s ease;
+	transition: all 1s ease;
 }
 .profilepicture{
 	position: absolute;
@@ -451,4 +451,9 @@ ul#listoftech li {
 .resize {
     width: 20vw;
     height: auto;
+}
+.movebtn{
+	position: absolute;
+	top: 80vh;
+	left: 10vw;
 }

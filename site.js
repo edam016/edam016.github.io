@@ -32,7 +32,7 @@ function bgChanger() {
         document.body.classList.add('bg-change6');
         document.body.classList.remove('bg-change7')
     }
-    if (this.scrollY > 5300 && this.scrollY < 9000) {
+    if (this.scrollY > 5300) {
         document.body.classList.remove('bg-change6');
         document.body.classList.add('bg-change7');
 
