@@ -135,6 +135,7 @@
 body{
 	background: url(black.jpg) no-repeat;
 	overflow-x:hidden;
+	overflow-y: overlay;
 	width:100%;
 	background-size: cover;
     background-attachment: fixed;
