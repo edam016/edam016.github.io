@@ -12,12 +12,12 @@ function bgChanger() {
         document.body.classList.remove('bg-change3');
         document.body.classList.add('bg-change2');
     }
-    if (this.scrollY > 1500 && this.scrollY < 1760) {
+    if (this.scrollY > 1500 && this.scrollY < 1660) {
         document.body.classList.remove('bg-change2');
         document.body.classList.remove('bg-change4');
         document.body.classList.add('bg-change3');
     }
-    if (this.scrollY > 1760 && this.scrollY < 2700) {
+    if (this.scrollY > 1660 && this.scrollY < 2700) {
         document.body.classList.remove('bg-change3');
         document.body.classList.remove('bg-change5');
         document.body.classList.add('bg-change4');
