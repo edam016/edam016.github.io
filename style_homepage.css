@@ -57,7 +57,7 @@
 
 .aboutmemove{
 	position:absolute;
-	left: 20vw;
+	left: 0vw;
 	top: 110vh;
 }
 .aboutme_goodtext{
@@ -186,7 +186,7 @@ body{
 .Skillsandtechtext2{
 	position: absolute;
 	top: 380vh;
-	left: 15vw;
+	left: 17vw;
 	font-size: 20vh;
 	color: #ffce00;
 	font-family: 'Oswald', sans-serif;
@@ -211,7 +211,7 @@ ul#listoftech li {
 .moveproject{
 	position: absolute;
 	top: 500vh;
-	left: 52vw;
+	left: 33vw;
 }
 .project_text1{
 	padding: 5px;
@@ -345,6 +345,7 @@ ul#listoftech li {
 .movecontactinfo{
 	position: absolute;
 	top: 960vh;
+	left: -8vw;
 	font-size: 19vh;
 }
 .moveresume{
@@ -412,7 +413,7 @@ ul#listoftech li {
 .Awards_title{
 	position: absolute;
 	top: 800vh;
-	left: 5vw;
+	left: 13vw;
 }
 
 .Awards_desc_google{
