@@ -360,13 +360,13 @@ ul#listoftech li {
 	position: absolute;
 	top: 1004vh;
 	width: 25%;
-	left: 3vw;
+	left: 8vw;
 }
 .gitresize{
 	width:25vw;
 	position: absolute;
 	top: 1013vh;
-	left: 23vw;
+	left: 25vw;
 	height: auto;
 }
 .resumeresize{
@@ -376,7 +376,7 @@ ul#listoftech li {
 .linkedmove{
 	position: absolute;
 	top:  1020vh;
-	left: 1vh;
+	left: 7vw;
 	width: 18vw;
 }
 .emailmove{
