@@ -15,7 +15,7 @@
 	position: absolute;
 	top: 16vh;
 	left: 5vw;
-	color: white;
+	color: black;
 	font-size: 60px;	
 	font-family: 'Cardo', serif;
 	letter-spacing: .5vh;
@@ -25,7 +25,8 @@
 }
 .Eric{
 	color: #ffce00;
-	font-size: 30vh;
+	font-size: 20vh;
+	width: 70vw;
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
 }
@@ -47,8 +48,8 @@
 	position: absolute;
 	top: 60vh;
 	left: 2.5vw;
-	color: white;
-	width: 30%;
+	color: black;
+	width: 30vw;
 	font-family: 'Montserrat', sans-serif;
 	margin: 40px;
 
@@ -56,14 +57,14 @@
 
 .aboutmemove{
 	position:absolute;
-	left: 42vw;
+	left: 20vw;
 	top: 110vh;
 }
 .aboutme_goodtext{
 	position: absolute;
 	width: 25vw;
-	top: 121vh;
-	color:white;
+	top: 150vh;
+	color:black;
 	left: 2vw;
 	padding: 5px;
 	margin: 10px;
@@ -73,10 +74,6 @@
 	border-left: 2px solid black;
 
 }
-.aboutme_goodtext:hover {
-	border-radius: 25px 25px 25px 25px / 35px 35px 35px 35px ;
-	box-shadow: 10px 10px rgba(0, 0, 0, 0.493);
-  }
 
 .bg-change1{
 	background: url(NewYorkCity.jpg) no-repeat;
@@ -148,40 +145,39 @@ body{
 }
 .profilepicture{
 	position: absolute;
-	width: 350px;
-	height: 350px;
+	border-radius: 50%;
+	width: 300px;
+	height: 300px;
 	background-image: url("me.jpg");
 	background-size: cover;
 	top: 153vh;
-	left: 55vw;
-	box-shadow: 20px 20px rgba(0,0,0,.25);
+	left: 35vw;
 }
 .jobdesc{
 	position: absolute;
 	width: 35vw;
-	top: 285vh;
-	left: 58vw;
+	top: 300vh;
+	left: 20vw;
 	padding: 5px;
-	margin: 10px;
+	margin: 10px;	
 	font-size: 3.5vh;
-	color: white;
+	color: black;
 	font-family: 'Montserrat', sans-serif;
-	box-shadow: 20px 20px rgba(0,0,0,.25);
 	transition: all .4s ease;
+	border-left: 2px solid black;
 
 }
 
 .hcpic{
 	position: absolute;
-	top: 295vh;
-	left: 3vw;
-
-	
+	top: 310vh;
+	left: 62vw;
+	width: 30vw;
 }
 .Skillsandtechtext{
 	position: absolute;
 	top: 260vh;
-	left:1vw;
+	left:31vw;
 	font-size: 20vh;
 	color: #ffce00;
 	font-family: 'Oswald', sans-serif;
@@ -190,6 +186,7 @@ body{
 .Skillsandtechtext2{
 	position: absolute;
 	top: 380vh;
+	left: 15vw;
 	font-size: 20vh;
 	color: #ffce00;
 	font-family: 'Oswald', sans-serif;
@@ -214,52 +211,51 @@ ul#listoftech li {
 .moveproject{
 	position: absolute;
 	top: 500vh;
-	left: 5vw;
+	left: 52vw;
 }
 .project_text1{
-	
 	padding: 5px;
 	margin: 10px;
 	position:absolute;
-	color:white;
+	color:black;
 	font-size: 3.5vh;
 	top: 543vh;
-	width: 35%;
+	width: 35vw;;
 	left: 61vw;
 	font-family: 'Montserrat', sans-serif;
-	box-shadow: 20px 20px rgba(0,0,0,.25);
+	border-left: 2px solid black;
 	transition: all .4s ease;
-	border-radius: 25px;
+	
 }
 .project_text2{
 	
 	padding: 5px;
 	margin: 10px;
 	position:absolute;
-	color:white;
+	color:black;
 	font-size: 4vh;
 	top: 625vh;
-	width: 35%;
+	width: 35vw;
 	left: 61vw;
 	font-family: 'Montserrat', sans-serif;
-	box-shadow: 20px 20px rgba(0,0,0,.25);
 	transition: all .4s ease;
-	border-radius: 25px;
+	
+	border-left: 2px solid black;
 }
 .project_text3{
 	
 	padding: 5px;
 	margin: 10px;
 	position:absolute;
-	color:white;
+	color:black;
 	font-size: 4vh;
 	top: 700vh;
-	width: 35%;
-	left: 61vw;
+	width: 35vw;
+	left: 62vw;
 	font-family: 'Montserrat', sans-serif;
-	box-shadow: 20px 20px rgba(0,0,0,.25);
 	transition: all .4s ease;
-	border-radius: 25px;
+	
+	border-left: 2px solid black;
 }
 .Prescrypto_Pic{
 	position: absolute;
@@ -270,8 +266,8 @@ ul#listoftech li {
 	background-image: url("home.JPG");
 	background-position: center;
 	background-size: cover;
-	top: 570vh;
-	left: 33vw;
+	top: 546vh;
+	left: 38vw;
 }
 
 .blockchain_pic{
@@ -300,21 +296,21 @@ ul#listoftech li {
 }
 .csiblockchain_pic{
 	position: absolute;
-	box-shadow: 20px 20px rgba(0,0,0,.25);
+	box-shadow: 10px 10px rgba(0,0,0,.25);
 	transition: all .4s ease;
-	width: 40vw;
+	width: 23.7vw;
 	height: 43vh;
 	background-image: url("csiblockchain.JPG");
-	background-position: center;
+	background-position: left;
 	background-size: cover;
-	top: 633vh;
-	left: 10vw;
+	top: 628vh;
+	left: 37vw;
 }
 .hash_pic{
 	position: absolute;
-	box-shadow: 20px 20px rgba(0,0,0,.25);
+	box-shadow: 10px 10px rgba(0,0,0,.25);
 	transition: all .4s ease;
-	width: 20vw;
+	width: 10vw;
 	height: 47vh;
 	background-image: url("example.JPG");
 	background-position: center;
@@ -324,7 +320,7 @@ ul#listoftech li {
 }
 .homebook_pic1{
 	position: absolute;
-	box-shadow: 20px 20px rgba(0,0,0,.25);
+	box-shadow: 10px 10px rgba(0,0,0,.25);
 	transition: all .4s ease;
 	width: 20vw;
 	height: 90vh;
@@ -336,15 +332,15 @@ ul#listoftech li {
 }
 .homebook_pic2{
 	position: absolute;
-	box-shadow: 20px 20px rgba(0,0,0,.25);
+	box-shadow: 10px 10px rgba(0,0,0,.25);
 	transition: all .4s ease;
-	width: 20vw;
-	height: 90vh;
+	width: 25vw;
+	height: 85vh;
 	background-image: url("homebook_pic2.JPG");
 	background-position: center;
 	background-size: cover;
-	top: 700vh;
-	left: 33vw;
+	top: 690vh;
+	left: 36.5vw;
 }
 .movecontactinfo{
 	position: absolute;
@@ -365,9 +361,9 @@ ul#listoftech li {
 	left: 1vh;
 }
 .gitresize{
-	width:15%;
+	width:25vw;
 	position: absolute;
-	top: 1024vh;
+	top: 1013vh;
 	left: 23vw;
 	height: auto;
 }
@@ -407,7 +403,7 @@ ul#listoftech li {
 .intro-text{
 	opacity: 0;
 	transform: translateY(25px);
-	transition: 0.5s all ease-in-out
+	transition: 1s all ease-in-out
 }
 .intro-appear{
 	opacity: 1;
@@ -423,7 +419,7 @@ ul#listoftech li {
 	position: absolute;
 	top: 860vh;
 	left: 5vw;
-	color: white;
+	color: black;
 	font-size: 4vh;
 	width: 50%;
 	font-family: 'Montserrat', sans-serif;
@@ -432,7 +428,7 @@ ul#listoftech li {
 .Awards_desc_htn{
 	position: absolute;
 	top: 900vh;
-	color: white;
+	color: black;
 	font-size: 4vh;
 	width: 50%;
 	left: 5vw;

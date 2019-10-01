@@ -41,6 +41,7 @@
   letter-spacing: 8px;
   color: #fff;
   top: -48px;
+  left: -15vw;
   position: relative;
 }
 .svg-wrapper:hover .shape1,
