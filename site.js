@@ -1,18 +1,18 @@
 function bgChanger() {
     console.log(this.scrollY);
-    if (this.scrollY > 406 && this.scrollY < 936) {
+    if (this.scrollY > 506 && this.scrollY < 1000) {
         document.body.classList.add('bg-change1');
         document.body.classList.remove('bg-change2');
     }
-    if (this.scrollY < 406) {
+    if (this.scrollY < 506) {
         document.body.classList.remove("bg-change1");
     }
-    if (this.scrollY > 936 && this.scrollY < 1500) {
+    if (this.scrollY > 1000 && this.scrollY < 1400) {
         document.body.classList.remove('bg-change1');
         document.body.classList.remove('bg-change3');
         document.body.classList.add('bg-change2');
     }
-    if (this.scrollY > 1500 && this.scrollY < 1660) {
+    if (this.scrollY > 1400 && this.scrollY < 1660) {
         document.body.classList.remove('bg-change2');
         document.body.classList.remove('bg-change4');
         document.body.classList.add('bg-change3');
