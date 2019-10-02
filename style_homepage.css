@@ -108,7 +108,7 @@
 	
 }
 .bg-change5{
-	background: url(toronto.jpg) no-repeat;
+	background: url(black.jpg) no-repeat;
 	background-size: cover;
     background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -125,7 +125,7 @@
 	
 }
 .bg-change7{
-	background: url(hongkong2.jpg) no-repeat;
+	background: url(black.jpg) no-repeat;
 	background-size: cover;
     background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -222,7 +222,7 @@ ul#listoftech li {
 	font-size: 3.5vh;
 	top: 543vh;
 	width: 35vw;;
-	left: 61vw;
+	left: 45vw;
 	font-family: 'Montserrat', sans-serif;
 	border-left: 2px solid black;
 	transition: all .4s ease;
@@ -237,7 +237,7 @@ ul#listoftech li {
 	font-size: 4vh;
 	top: 625vh;
 	width: 35vw;
-	left: 61vw;
+	left: 45vw;
 	font-family: 'Montserrat', sans-serif;
 	transition: all .4s ease;
 	
@@ -252,7 +252,7 @@ ul#listoftech li {
 	font-size: 4vh;
 	top: 700vh;
 	width: 35vw;
-	left: 62vw;
+	left: 45vw;
 	font-family: 'Montserrat', sans-serif;
 	transition: all .4s ease;
 	
@@ -268,7 +268,7 @@ ul#listoftech li {
 	background-position: center;
 	background-size: cover;
 	top: 546vh;
-	left: 38vw;
+	left: 20vw;
 }
 
 .blockchain_pic{
@@ -305,7 +305,7 @@ ul#listoftech li {
 	background-position: left;
 	background-size: cover;
 	top: 628vh;
-	left: 37vw;
+	left: 20vw;
 }
 .hash_pic{
 	position: absolute;
@@ -317,7 +317,7 @@ ul#listoftech li {
 	background-position: center;
 	background-size: cover;
 	top: 620vh;
-	left: 36vw;
+	left: 23vw;
 }
 .homebook_pic1{
 	position: absolute;
@@ -341,12 +341,12 @@ ul#listoftech li {
 	background-position: center;
 	background-size: cover;
 	top: 690vh;
-	left: 36.5vw;
+	left: 18vw;
 }
 .movecontactinfo{
 	position: absolute;
 	top: 960vh;
-	left: -8vw;
+	left: 15vw;
 	font-size: 19vh;
 }
 .moveresume{
@@ -376,14 +376,14 @@ ul#listoftech li {
 .linkedmove{
 	position: absolute;
 	top:  1020vh;
-	left: 7vw;
+	left: 51vw;
 	width: 18vw;
 }
 .emailmove{
 	font-family: 'Oswald', sans-serif;
 	position: absolute;
 	top: 1065vh;
-	left: 2vw;
+	left: 28vw;
 	color: #ffce00;
 	font-size: 9vh;
 
