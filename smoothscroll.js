@@ -1,5 +1,5 @@
 
-$('.options a').on('click', function (e) {
+$('.option a').on('click', function (e) {
     if (this.hash !== '') {
         e.preventDefault();
 

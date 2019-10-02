@@ -1,44 +1,43 @@
-function bgChanger() {
-    console.log(this.scrollY);
-    if (this.scrollY > 506 && this.scrollY < 1000) {
-        document.body.classList.add('bg-change1');
-        document.body.classList.remove('bg-change2');
-    }
-    if (this.scrollY < 506) {
-        document.body.classList.remove("bg-change1");
-    }
-    if (this.scrollY > 1000 && this.scrollY < 1400) {
-        document.body.classList.remove('bg-change1');
-        document.body.classList.remove('bg-change3');
-        document.body.classList.add('bg-change2');
-    }
-    if (this.scrollY > 1400 && this.scrollY < 1660) {
-        document.body.classList.remove('bg-change2');
-        document.body.classList.remove('bg-change4');
-        document.body.classList.add('bg-change3');
-    }
-    if (this.scrollY > 1660 && this.scrollY < 2700) {
-        document.body.classList.remove('bg-change3');
-        document.body.classList.remove('bg-change5');
-        document.body.classList.add('bg-change4');
-    }
-    if (this.scrollY > 2700 && this.scrollY < 4000) {
-        document.body.classList.remove('bg-change4');
-        document.body.classList.add('bg-change5');
-        document.body.classList.remove('bg-change6')
-    }
-    if (this.scrollY > 4000 && this.scrollY < 5300) {
-        document.body.classList.remove('bg-change5');
-        document.body.classList.add('bg-change6');
-        document.body.classList.remove('bg-change7')
-    }
-    if (this.scrollY > 5300) {
-        document.body.classList.remove('bg-change6');
-        document.body.classList.add('bg-change7');
 
-    }
-}
 
-window.addEventListener("scroll", bgChanger);
-window.addEventListener('scroll', scrollAppear);
 
+$(function () {
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 506 && $(this).scrollTop() < 1000) {
+            $("body").addClass('bg-change1');
+            $("body").removeClass('bg-change2');
+        }
+        if ($(this).scrollTop() < 506) {
+            $("body").removeClass("bg-change1");
+        }
+        if ($(this).scrollTop() > 1000 && $(this).scrollTop() < 1400) {
+            $("body").removeClass('bg-change1');
+            $("body").removeClass('bg-change3');
+            $("body").addClass('bg-change2');
+        }
+        if ($(this).scrollTop() > 1400 && $(this).scrollTop() < 1660) {
+            $("body").removeClass('bg-change2');
+            $("body").removeClass('bg-change4');
+            $("body").addClass('bg-change3');
+        }
+        if ($(this).scrollTop() > 1660 && $(this).scrollTop() < 2700) {
+            $("body").removeClass('bg-change3');
+            $("body").removeClass('bg-change5');
+            $("body").addClass('bg-change4');
+        }
+        if ($(this).scrollTop() > 2700 && $(this).scrollTop() < 4000) {
+            $("body").removeClass('bg-change4');
+            $("body").addClass('bg-change5');
+            $("body").removeClass('bg-change6')
+        }
+        if ($(this).scrollTop() > 4000 && $(this).scrollTop() < 5300) {
+            $("body").removeClass('bg-change5');
+            $("body").addClass('bg-change6');
+            $("body").removeClass('bg-change7');
+        }
+        if ($(this).scrollTop() > 5300) {
+            $("body").removeClass('bg-change6');
+            $("body").addClass('bg-change7');
+        }
+    });
+});
