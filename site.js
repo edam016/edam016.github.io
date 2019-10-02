@@ -15,7 +15,7 @@ $(function () {
             $("body").removeClass('bg-change3');
             $("body").addClass('bg-change2');
         }
-        if ($(this).scrollTop() > 1400 && $(this).scrollTop() < 1660) {
+        if ($(this).scrollTop() > 1400 && $(this).scrollTop() < 1800) {
             $("body").removeClass('bg-change2');
             $("body").removeClass('bg-change4');
             $("body").addClass('bg-change3');
