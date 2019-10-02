@@ -420,7 +420,7 @@ ul#listoftech li {
 .Awards_desc_google{
 	position: absolute;
 	top: 860vh;
-	left: 5vw;
+	left: 10vw;
 	color: black;
 	font-size: 4vh;
 	width: 50vw;
@@ -433,7 +433,7 @@ ul#listoftech li {
 	color: black;
 	font-size: 4vh;
 	width: 50vw;
-	left: 5vw;
+	left: 10vw;
 	font-family: 'Montserrat', sans-serif;
 }
 .Awards_desc_alb{
@@ -442,27 +442,27 @@ ul#listoftech li {
 	color: black;
 	font-size: 4vh;
 	width: 50vw;
-	left: 5vw;
+	left: 10vw;
 	font-family: 'Montserrat', sans-serif;
 }
 .googlemove{
 	position: absolute;
 	top: 847vh;
-	left: 64vw;
+	left: 69vw;
 	width: 15%;
 	height: 15%;
 }
 .htnmove{
 	position: absolute;
 	top: 895vh;
-	left: 62vw;
+	left: 67vw;
 	width: 20%;
 	height: 20%;
 }
 .albmove{
 	position: absolute;
 	top: 940vh;
-	left: 61vw;
+	left: 66vw;
 	width: 20%;
 	height: 20%;
 }
