@@ -54,7 +54,20 @@
 	margin: 40px;
 
 }
-
+.top{
+	position: absolute;
+	top: 120vh;
+	width: 25vw;
+	left: 74vw;
+	height: 100vh;
+}
+.top2{
+	position: absolute;
+	top: 200vh;
+	width: 25vw;
+	left: 74vw;
+	height: 100vh;
+}
 .aboutmemove{
 	position:absolute;
 	left: 0vw;
@@ -76,7 +89,7 @@
 }
 
 .bg-change1{
-	background: url(NewYorkCity.jpg) no-repeat;
+	background: url(black.jpg) no-repeat;
 	background-size: cover;
     background-attachment: fixed;
 	background-repeat: no-repeat;
