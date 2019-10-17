@@ -4,7 +4,7 @@ $(document).ready(function () {
     $(window).on('scroll', function () {
         var st = $(this).scrollTop();
         myElement.css({
-            'opacity': 4 - st / 300
+            'opacity': 6.3 - st / 300
         });
     });
 });

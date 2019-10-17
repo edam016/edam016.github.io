@@ -56,18 +56,12 @@
 }
 .top{
 	position: absolute;
-	top: 120vh;
-	width: 25vw;
-	left: 74vw;
-	height: 100vh;
+	top: 270vh;
+	width: 12vw;
+	left: 5vw;
+	height: 110vh;
 }
-.top2{
-	position: absolute;
-	top: 200vh;
-	width: 25vw;
-	left: 74vw;
-	height: 100vh;
-}
+
 .aboutmemove{
 	position:absolute;
 	left: 0vw;
@@ -89,7 +83,7 @@
 }
 
 .bg-change1{
-	background: url(black.jpg) no-repeat;
+	background: url(NewYorkCity.jpg) no-repeat;
 	background-size: cover;
     background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -105,7 +99,7 @@
 	
 }
 .bg-change3{
-	background: url(seattle.jpg) no-repeat;
+	background: url(black.jpg) no-repeat;
 	background-size: cover;
     background-attachment: fixed;
 	background-repeat: no-repeat;
