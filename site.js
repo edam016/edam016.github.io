@@ -41,15 +41,3 @@ function bgChanger() {
 
 window.addEventListener("scroll", bgChanger);
 window.addEventListener('scroll', scrollAppear);
-
-$(function () {
-    var element = $('.top');
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 1000) {
-            element.fadeIn();
-        }
-        else {
-            element.fadeOut();
-        }
-    });
-});
