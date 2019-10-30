@@ -5,11 +5,12 @@
 
 }
 
+
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 8vh;
+    min-height: 13vh;
     background-color: #F9F9F9;
     font-family: 'Open Sans', sans-serif;
 }
@@ -17,7 +18,8 @@ nav{
     color: #383428;
     text-transform: uppercase;
     letter-spacing: 5px;
-    font-size: 20px;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
 
 }
 .nav-links{
@@ -34,7 +36,7 @@ nav{
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 20px;
 }
 .burger{
     display: none;
@@ -48,7 +50,7 @@ nav{
 
 @media screen and (max-width: 1024px){
     .nav-links{
-        width: 60%:
+        width: 60%;
     }
 }
 
@@ -79,4 +81,37 @@ nav{
 
 .nav-active{
     transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+    from{
+        opactiy: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.home_title_font1{
+    position: absolute;
+	top: 18vh;
+	left: 5vw;
+	color:#383428;
+	font-size: 60px;	
+	font-family: 'Cardo', serif;
+	letter-spacing: .5vh;
+	margin: 2vh;
+	line-height: 4vh;
+}
+
+.home_title_font2{
+    position: absolute;
+	left: 5vw;
+	top: 18vh;
+	color: #4b4944;
+	font-size: 40vh;	
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
 }

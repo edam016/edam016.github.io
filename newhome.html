@@ -6,31 +6,39 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="newhome.js "></script>
+    <link href="https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald" rel="stylesheet">
+    <script>
+        n = new Date();
+        y = n.getFullYear();
+        m = n.getMonth() + 1;
+        d = n.getDate();
+        document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
+    </script>
+    <meta name="viewport" cotent="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="newhome.css" />
-
 </head>
 
 <body>
     <nav>
-        <div class=logo>
-            <h4>Hi Im Eric.</h4>
+        <div id="date" class=logo>
+            <h4>Welcome</h4>
         </div>
         <ul class="nav-links">
             <li>
-                <a href="#">Home</a>
+                <a href="#">HOME</a>
             </li>
             <li>
-                <a href="#">About</a>
+                <a href="#">ABOUT</a>
             </li>
             <li>
-                <a href="#">Work</a>
+                <a href="#">WORK</a>
             </li>
             <li>
-                <a href="#">Projects</a>
+                <a href="#">PROJECTS</a>
             </li>
             <li>
-                <a href="edam016.github.io">Legacy</a>
+                <a href="edam016.github.io">LEGACY</a>
             </li>
 
         </ul>
@@ -40,6 +48,14 @@
             <div class="line3"></div>
         </div>
     </nav>
+    <div>
+        <div class="home_title_font1">
+            Hi, my name is</div>
+        <div class="home_title_font2">
+            <b> Eric</b>
+        </div>
+
+    </div>
 </body>
 
 </html>
