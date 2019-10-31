@@ -10,7 +10,7 @@ html,body{
     vertical-align:middle;
   }
   button{
-    background:#ffce00;
+    background:#383428;;
     color:#fff;
     border:none;
     position:absolute;
@@ -25,7 +25,7 @@ html,body{
   }
   button:hover{
     background:#fff;
-    color:#ffce00;
+    color:#383428;;
   }
   button:before,button:after{
     content:'';
@@ -34,7 +34,7 @@ html,body{
     right:0;
     height:2px;
     width:0;
-    background: #ffce00;
+    background: #383428;;
     transition:400ms ease all;
   }
   button:after{

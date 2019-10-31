@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     border: border-box;
-
+    
 }
 
 
@@ -96,22 +96,28 @@ nav{
 
 .home_title_font1{
     position: absolute;
-	top: 18vh;
+	top: 20vh;
 	left: 5vw;
 	color:#383428;
 	font-size: 60px;	
 	font-family: 'Cardo', serif;
-	letter-spacing: .5vh;
+	letter-spacing: 0vh;
 	margin: 2vh;
 	line-height: 4vh;
 }
 
 .home_title_font2{
     position: absolute;
-	left: 5vw;
+	left: 5.7vw;
 	top: 18vh;
 	color: #4b4944;
 	font-size: 40vh;	
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
+}
+
+.move_resume_button{
+    position: absolute;
+    top: 80vh;
+    left: 10.5vw;
 }
