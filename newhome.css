@@ -121,3 +121,10 @@ nav{
     top: 80vh;
     left: 10.5vw;
 }
+.title_placement{
+    position: absolute;
+    top: 120vh;
+}
+.aboutme_bio_placement{
+    top: 140vh;
+}
