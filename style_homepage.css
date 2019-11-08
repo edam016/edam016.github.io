@@ -15,7 +15,7 @@
 	position: absolute;
 	top: 16vh;
 	left: 5vw;
-	color: black;
+	color: white;
 	font-size: 60px;	
 	font-family: 'Cardo', serif;
 	letter-spacing: .5vh;
@@ -48,7 +48,7 @@
 	position: absolute;
 	top: 60vh;
 	left: 2.5vw;
-	color: black;
+	color: white;
 	width: 30vw;
 	font-family: 'Montserrat', sans-serif;
 	margin: 40px;
@@ -71,14 +71,14 @@
 	position: absolute;
 	width: 25vw;
 	top: 150vh;
-	color:black;
+	color:white;
 	left: 2vw;
 	padding: 5px;
 	margin: 10px;
 	font-size: 3vh;
 	font-family: 'Montserrat', sans-serif;
 	border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
-	border-left: 2px solid black;
+	border-left: 2px solid white;
 
 }
 
@@ -169,10 +169,10 @@ body{
 	padding: 5px;
 	margin: 10px;	
 	font-size: 3.5vh;
-	color: black;
+	color: whitek;
 	font-family: 'Montserrat', sans-serif;
 	transition: all .4s ease;
-	border-left: 2px solid black;
+	border-left: 2px solid white;
 
 }
 
@@ -225,13 +225,13 @@ ul#listoftech li {
 	padding: 5px;
 	margin: 10px;
 	position:absolute;
-	color:black;
+	color:white;
 	font-size: 3.5vh;
 	top: 543vh;
 	width: 35vw;;
 	left: 45vw;
 	font-family: 'Montserrat', sans-serif;
-	border-left: 2px solid black;
+	border-left: 2px solid white;
 	transition: all .4s ease;
 	
 }
@@ -240,7 +240,7 @@ ul#listoftech li {
 	padding: 5px;
 	margin: 10px;
 	position:absolute;
-	color:black;
+	color:white;
 	font-size: 4vh;
 	top: 625vh;
 	width: 35vw;
@@ -248,14 +248,14 @@ ul#listoftech li {
 	font-family: 'Montserrat', sans-serif;
 	transition: all .4s ease;
 	
-	border-left: 2px solid black;
+	border-left: 2px solid white;
 }
 .project_text3{
 	
 	padding: 5px;
 	margin: 10px;
 	position:absolute;
-	color:black;
+	color:white;
 	font-size: 4vh;
 	top: 700vh;
 	width: 35vw;
@@ -263,7 +263,7 @@ ul#listoftech li {
 	font-family: 'Montserrat', sans-serif;
 	transition: all .4s ease;
 	
-	border-left: 2px solid black;
+	border-left: 2px solid white;
 }
 .Prescrypto_Pic{
 	position: absolute;
@@ -428,7 +428,7 @@ ul#listoftech li {
 	position: absolute;
 	top: 860vh;
 	left: 10vw;
-	color: black;
+	color: white;
 	font-size: 4vh;
 	width: 50vw;
 	font-family: 'Montserrat', sans-serif;
@@ -437,7 +437,7 @@ ul#listoftech li {
 .Awards_desc_htn{
 	position: absolute;
 	top: 900vh;
-	color: black;
+	color: white;
 	font-size: 4vh;
 	width: 50vw;
 	left: 10vw;
@@ -446,7 +446,7 @@ ul#listoftech li {
 .Awards_desc_alb{
 	position: absolute;
 	top: 940vh;
-	color: black;
+	color: white;
 	font-size: 4vh;
 	width: 50vw;
 	left: 10vw;
