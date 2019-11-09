@@ -20,9 +20,8 @@ nav{
     font-family: 'Open Sans', sans-serif;
     top:0;
     width: 100%;
-    
-  
 }
+
 .logo{
     color: #383428;
     text-transform: uppercase;
@@ -35,11 +34,12 @@ nav{
     display: flex;
     justify-content: space-around;
     width: 60%;
-
 }
+
 .nav-links li{
     list-style: none;
 }
+
 .nav-links a{
     color: #383428;
     text-decoration: none;
@@ -47,9 +47,11 @@ nav{
     font-weight: bold;
     font-size: 20px;
 }
+
 .burger{
     display: none;
 }
+
 .burger div{
     width: 25px;
     height: 5px;
@@ -119,7 +121,7 @@ nav{
     position: relative;
 	left: -30vw;
 	top: 14vh;
-	color: #4b4944;
+	color: #383428;
 	font-size: 40vh;	
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
@@ -137,8 +139,12 @@ nav{
 }
 .aboutme_bio_placement{
     position: relative;
-    top: 140vh;
+    top: 80vh;
+    left: 30vw;
 }
 .aboutme_bio_css{
-
+    font-size: 4vh;
+    font-family: 'Oswald', sans-serif;
+    width: 40%;
 }
+
