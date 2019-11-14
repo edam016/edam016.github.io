@@ -151,31 +151,32 @@ nav{
 .resumebtn_container{
     text-align: center;
     position: relative;
-    top: 18vh;
+    top: 6vh;
 }
 .resumebtn_mover{
     position: relative;
     top: 20vh;
     display: inline-block;
 }
-.move_resume_button{
-    position: relative;
-    top: 20vh;
-    left: 10.5vw;
-}
+
 .title_placement{
     position: relative;
-    top: 120vh;
-    left: 60vw;
+    top: 43vh;
+    font-family: 'Oswald', sans-serif;
+    font-size: 10vh;
+    color: #383428;
+    
 }
 .aboutme_bio_placement{
     position: relative;
-    top: 80vh;
-    left: 30vw;
+    top: 55vh;
+    left: 52vw;
+   
 }
 .aboutme_bio_css{
     font-size: 4vh;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
     width: 40%;
 }
 

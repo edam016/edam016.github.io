@@ -10,20 +10,20 @@ html,body{
     vertical-align:middle;
   }
   button{
-    background: #ffce00;
-    color:#fff;
+    color: #383428;
+    background:#fff;
     border:none;
     position:absolute;
     height:60px;
-    font-size:1.6em;
+    font-size:4vh;
     padding:0 2em;
-    cursor:pointer;
+    cursor:pointer; 
     transition:800ms ease all;
     outline:none;
   }
   button:hover{
-    background:#fff;
-    color:#383428;
+    background:#383428;
+    color:#fff;
   }
   button:before,button:after{
     content:'';
@@ -32,7 +32,7 @@ html,body{
     right:0;
     height:2px;
     width:0;
-    background:  #ffce00;;
+    background:  #383428;
     transition:400ms ease all;
   }
   button:after{
