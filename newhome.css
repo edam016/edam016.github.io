@@ -1,17 +1,18 @@
 *{
     margin: 0px;
     padding: 0px;
-    border: border-box;
     
     
 }
 body{
     margin-top: 30px;
     overflow-x: hidden;
+    background: url(LA.jpg) no-repeat;
+    background-size: cover;
 }
 
 nav{
-    position:fixed;
+    position: absolute;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -28,6 +29,7 @@ nav{
     letter-spacing: 5px;
     font-size: 30px;
     font-family: 'Open Sans', sans-serif;
+    
 
 }
 .nav-links{
@@ -90,6 +92,11 @@ nav{
     }
 }
 
+@media (min-width:600px) {
+    body {
+      font-size: 10px;
+    }
+  }
 .nav-active{
     transform: translateX(0%);
 }
@@ -107,26 +114,39 @@ nav{
 
 .home_title_font1{
     position: relative;
-	top: 20vh;
-	left: -30vw;
+	top: 8vh;
+	left: 0vw;
 	color:#383428;
 	font-size: 60px;	
 	font-family: 'Cardo', serif;
 	letter-spacing: 0vh;
 	margin: 2vh;
-	line-height: 4vh;
+    line-height: 4vh;
+    display: inline-block
+    
 }
 
 .home_title_font2{
     position: relative;
-	left: -30vw;
-	top: 14vh;
+	left: 0vw;
+	top: 3vh;
 	color: #383428;
 	font-size: 40vh;	
 	font-family: 'Oswald', sans-serif;
-	text-transform: uppercase;
+    text-transform: uppercase;
+    display: inline-block
 }
-
+.titlebackground{
+    background-color: white;
+    width: 40%;
+    display: inline-block;
+    
+}
+.titlebackground-container{
+    text-align: center;
+    position: relative;
+    top: 18vh;
+}
 .move_resume_button{
     position: relative;
     top: 80vh;
@@ -147,4 +167,5 @@ nav{
     font-family: 'Oswald', sans-serif;
     width: 40%;
 }
+
 
