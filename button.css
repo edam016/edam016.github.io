@@ -10,13 +10,11 @@ html,body{
     vertical-align:middle;
   }
   button{
-    background: #ffce00;;
+    background: #ffce00;
     color:#fff;
     border:none;
     position:absolute;
     height:60px;
-    top:0vh;
-    left: 0vw;
     font-size:1.6em;
     padding:0 2em;
     cursor:pointer;

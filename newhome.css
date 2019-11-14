@@ -147,9 +147,20 @@ nav{
     position: relative;
     top: 18vh;
 }
+
+.resumebtn_container{
+    text-align: center;
+    position: relative;
+    top: 18vh;
+}
+.resumebtn_mover{
+    position: relative;
+    top: 20vh;
+    display: inline-block;
+}
 .move_resume_button{
     position: relative;
-    top: 80vh;
+    top: 20vh;
     left: 10.5vw;
 }
 .title_placement{
