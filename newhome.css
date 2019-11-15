@@ -12,7 +12,7 @@ body{
 }
 
 nav{
-    position: absolute;
+    position: fixed;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -159,25 +159,5 @@ nav{
     display: inline-block;
 }
 
-.title_placement{
-    position: relative;
-    top: 43vh;
-    font-family: 'Oswald', sans-serif;
-    font-size: 10vh;
-    color: #383428;
-    
-}
-.aboutme_bio_placement{
-    position: relative;
-    top: 55vh;
-    left: 52vw;
-   
-}
-.aboutme_bio_css{
-    font-size: 4vh;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 100;
-    width: 40%;
-}
 
 
