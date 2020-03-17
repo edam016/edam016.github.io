@@ -7,47 +7,183 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./version2.css">
     <link rel="stylesheet" href="./responsivenav.css">
+    <link rel="stylesheet" href="./version2_backgrounds.css">
+    <link rel="stylesheet" href="./version2_me.css">
+    <link rel="stylesheet" href="./version2_projects.css">
+    <link rel="stylesheet" href="./project_modal.css">
+    <link href="https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Great+Vibes" rel='stylesheet' type="text/css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="~/lib/Font-Awesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="~/lib/Font-Awesome/css/all.min.css">
+
 
     <title>Document</title>
+    <script>
+        n = new Date();
+        y = n.getFullYear();
+        m = n.getMonth() + 1;
+        d = n.getDate();
+        document.getElementById("logo").innerHTML = m + "/" + d + "/" + y;
+    </script>
 </head>
 
 <body>
-    <header>
+    <header id="navbutton">
         <nav>
-            <h3 id="logo">Dream Vacation</h3>
+            <h3 id="logo"></h3>
             <ul>
                 <li>
-                    <a href="#one">One</a>
+                    <a href="#one">Home</a>
                 </li>
                 <li>
-                    <a href="#two">Two</a>
+                    <a href="#two">Me</a>
                 </li>
                 <li>
-                    <a href="#three">Three</a>
+                    <a href="#three">Projects</a>
+                </li>
+                <li>
+                    <a href="#four">Work</a>
+                </li>
+                <li>
+                    <a href="#five">Music</a>
                 </li>
             </ul>
         </nav>
         <section>
             <div class="hero">
-                <img src="LA.jpg" alt="">
-                <h1 class="headline"> Dream Big</h1>
+                <img src="LA.jpg" alt=" ">
+                <h1 class="headline ">
+                    ERIC DAM
+                </h1>
             </div>
         </section>
     </header>
 
-    <div class="slider">
-        <section id="one">One</section>
-        <section id="two">Two</section>
-        <section id="three">Three</section>
+    <div class="slider ">
+        <section id="one">
+
+        </section>
+
+        <div background-color: "whitesmoke">
+            <ul class="icons">
+                <li>
+                    <a href="#" class="icons_desc">
+                        <i class="fa fa-linkedin"></i>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="icons_desc">
+                        <i class="fa fa-github"></i>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/eric_daam/?hl=en" class="icons_desc">
+                        <i class="fa fa-instagram"></i>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/eric.dam.52" class="icons_desc">
+                        <i class="fa fa-facebook-f"></i>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                    </a>
+                </li>
+                <li>
+                    <a href="https://devpost.com/edam016?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav" class="icons_desc">
+                        <img src="devposticon.png" width="70px">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                    </a>
+                </li>
+
+
+            </ul>
+        </div>
+
+
+        <section id=" two ">
+            <span class="me_info ">
+                Hi, my name's
+                <b>Eric</b> and I am a third year Computer Engineering student at the
+                <b>University of Ottawa</b>. I am an avid
+                <b>learner</b> and self
+                <b>improver</b> with a passion for creating things, whether it be
+                <b>music</b> or innovative
+                <b>projects</b> at hackathons.
+                <br/>
+                <br /> I have work experience as both a
+                <b>Full-Stack</b> developer and also as a
+                <b>Cloud</b> developer at
+                <b>Health Canada</b> and
+                <b>Innovapost</b>. I am always looking for new opportunities so feel free to shoot me a quick message.
+            </span>
+        </section>
+        <section id="three ">
+            <div class="wrapper ">
+                <div class="box project1 ">
+                    Projects
+                </div>
+                <div class="box project2 ">
+                    Block
+                    <br />Chain
+                </div>
+                <div class="box project3 ">
+                    HemoAnalytics
+                </div>
+                <div class="box project4 ">
+                    Home
+                    <br />book
+                </div>
+                <div class="box project5 ">
+                    Prescrypto
+                </div>
+            </div>
+        </section>
+        <section id="four ">Work</section>
+        <section id="five ">
+            <div class="hero_music ">
+
+                <img src="mohtz_sunset.jpg " alt=" " align="middle ">
+                <h2 class="ok headline ">
+
+
+
+            </div>
+
+        </section>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U="
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js" integrity="sha256-fIkQKQryItPqpaWZbtwG25Jp2p5ujqo/NwJrfqAB+Qk="
-        crossorigin="anonymous"></script>
-    <script src="version2.js"></script>
-    <script src="responsivenav.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js " integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U="
+        crossorigin=" anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js " integrity="sha256-fIkQKQryItPqpaWZbtwG25Jp2p5ujqo/NwJrfqAB+Qk="
+        crossorigin=" anonymous "></script>
+    <script src="version2.js "></script>
+    <script src="responsivenav.js "></script>
 
 </body>
 

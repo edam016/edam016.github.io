@@ -1,0 +1,10 @@
+.me_info{
+    position: relative;
+    text-align: left;
+    width: 50%;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    z-index: 3;
+    
+}

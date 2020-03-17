@@ -1,0 +1,8 @@
+.music_bg{
+    background-image: url("Sunset.JPG");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-size: cover;
+
+}

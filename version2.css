@@ -3,25 +3,61 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    margin: 0;
+    padding: 0;
+}
+.icons{
+    position: relative;
+    top:100%;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    z-index: 99;
+}
+ul li{
+    list-style-type: none;
+
+}
+.icons_desc{
+    display: block;
+    position: relative;
+    width: 5vw;
+    height: 50px;
+    line-height: 50px;
+    font-size: 5vw;
+    text-align: center;
+    background: whitesmoke;
+    text-decoration: none;
+    color: #262626;
+    margin: 0 4vw;
+
+}
 .slider{
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to left, white, grey);
+    background: whitesmoke;
     z-index: -1;
 }
 nav{
     display: grid;
-    grid-template-columns: 10% 1fr 1fr 10%;
+    align-items: center;
+    grid-template-columns: 2% 1fr 1fr 1fr 10%;
     min-height: 10vh;
     color: black;
+    font-family: 'Montserrat', sans-serif;
 }
 #logo{
     grid-column: 2/3;
-    font-size: 24px;
+    font-size: 20px;
     z-index: 5;
+}
+.navbutton{
+    justify-self: end;
 }
 .hamburger{
     justify-self: end;
@@ -40,20 +76,33 @@ section{
     position: relative;
     
 }
+.hero_music{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    
+}
 
 .hero img{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+.hero_music img{
+  width: 100%;
+  background-position: center;
+  background-attachment: fixed;
+    
+}
 
 .headline{
     position: absolute;
     top: 70%;
-    left: 10%;
+    left: 20%;
     font-size: 100px;
+    font-family: 'Montserrat', sans-serif;
     transform: translate(-20%, -70%);
-    color: black;
+    color: whitesmoke;
     z-index: 3;
 }
 
@@ -66,4 +115,11 @@ section{
     left: 0;
     opacity: 0.3;
 
+}
+
+
+.ok {
+  font: 400 100px/0.8 'Great Vibes', Helvetica, sans-serif;
+  color: #fff;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
 }
