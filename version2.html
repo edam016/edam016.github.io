@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./version2_projects.css">
     <link rel="stylesheet" href="./project_modal.css">
     <link rel="stylesheet" href="./version2_icons.css">
+    <link rel="stylesheet" href="./version2_work.css">
     <link href="https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link href="http://fonts.googleapis.com/css?family=Great+Vibes" rel='stylesheet' type="text/css">
@@ -22,19 +23,20 @@
 
 
     <title>Document</title>
-    <script>
-        n = new Date();
-        y = n.getFullYear();
-        m = n.getMonth() + 1;
-        d = n.getDate();
-        document.getElementById("logo").innerHTML = m + "/" + d + "/" + y;
-    </script>
+
+
 </head>
+<STYLE>
+    A {
+        text-decoration: none;
+        text-decoration-color: none;
+    }
+</STYLE>
 
 <body>
     <header id="navbutton">
         <nav>
-            <h3 id="logo"></h3>
+
             <ul>
                 <li>
                     <a href="#one">Home</a>
@@ -58,7 +60,12 @@
                 <img src="LA.jpg" alt=" ">
                 <h1 class="headline ">
                     ERIC DAM
+                    <p id="date" class="time">
+
+                    </p>
                 </h1>
+
+
             </div>
         </section>
     </header>
@@ -71,7 +78,7 @@
         <div class="background">
             <ul class="icons icon_bg">
                 <li>
-                    <a href="#" class="icons_desc">
+                    <a href="www.linkedin.com/in/eric-dam-62589b158" class="icons_desc">
                         <span></span>
                         <span></span>
                         <span></span>
@@ -146,24 +153,45 @@
                 <div class="box project1 ">
                     Projects
                 </div>
-                <div class="box project2 ">
-                    Block
-                    <br />Chain
+
+                <div id="blockchain" class="box project2 ">
+                    <a href="https://github.com/edam016/Blockchain">
+                        Block
+                        <br />Chain
+                    </a>
                 </div>
-                <div class="box project3 ">
-                    HemoAnalytics
+
+
+                <div id="hemoanalytics" class="box project3 ">
+                    <a href="https://github.com/sukhrajbhogal/bloodtestanalyser">
+                        HemoAnalytics
+                    </a>
                 </div>
-                <div class="box project4 ">
-                    Home
-                    <br />book
+
+
+                <div id="homebook " class="box project4 ">
+                    <a href="https://github.com/edam016/HomeBook">
+                        Home
+                        <br />book
+                    </a>
                 </div>
-                <div class="box project5 ">
-                    Prescrypto
+                </a>
+
+                <div id="prescrypto " class="box project5 ">
+                    <a href="https://github.com/edam016/PresCrypto">
+                        Prescrypto
+                    </a>
                 </div>
+                </a>
             </div>
         </section>
-        <section id="four" class="background">Work</section>
-        <section id="five" class="background">
+        <section id="four" class="background ">
+            <div>
+                <h1 class="comingsoon ">Work Section Updating</h1>
+                <p id="demo" style="font-size:30px;color: black; font-family: 'Montserrat', sans-serif "></p>
+            </div>
+        </section>
+        <section id="five" class="background ">
             <div class="hero_music ">
 
                 <img src="mohtz_sunset.jpg " alt=" " align="middle ">
@@ -182,9 +210,11 @@
         crossorigin=" anonymous "></script>
     <script src="version2.js "></script>
     <script src="responsivenav.js "></script>
-    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="version2_countdown.js "></script>
+    <script src="project_linking.js "></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js "></script>
     <script>
-        var scroll = new SmoothScroll('a[href*="#"]');
+        var scroll = new SmoothScroll('a[href*="# "]');
     </script>
 </body>
 

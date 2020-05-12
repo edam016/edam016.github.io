@@ -181,6 +181,17 @@ section{
     z-index: 3;
 }
 
+.time{
+    position: absolute;
+    top:-30%;
+    left: 130%;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    transform: translate(-20%, -70%);
+    color: whitesmoke;
+    z-index: 3;
+}
+
 .hero::after{
     content: "";
     background: black;
